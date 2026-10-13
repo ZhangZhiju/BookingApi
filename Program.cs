@@ -11,8 +11,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
-app.MapGet("/", () => "Welcome to BookingApi v1.0 - User weny917920");
+app.MapGet("/", () => "Welcome to BookingApi v1.0 - Collaborative Version");
 app.MapGet("/bookings", () =>
 {
     return new[] {
