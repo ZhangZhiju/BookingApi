@@ -11,7 +11,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-app.MapGet("/", () => "Welcome to BookingApi - Managed by Tech Lead");
+app.MapGet("/", () => "Welcome to BookingApi v1.0 - Collaborative Version");
 app.MapGet("/bookings", () =>
 {
     return new[] {
